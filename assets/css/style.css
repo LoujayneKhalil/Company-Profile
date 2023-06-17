@@ -1,0 +1,478 @@
+@font-face {
+  font-family: MontserratRegular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratThin;
+  src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+body {
+  font-family: MontserratRegular;
+  width: auto;
+  background-color: #fafafa;
+}
+
+.boldFont {
+  font-family: MontserratBold;
+}
+
+header {
+  height: 850px;
+}
+
+.logo {
+  color: white;
+}
+
+.background {
+  background-image: url(../images/background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.nabvar-header {
+  margin: 20px auto;
+  padding: 0 100px;
+}
+
+.nav-list {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.white-color {
+  color: white;
+}
+
+
+
+h2{
+  font-family: MontserratBold;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #737373;
+}
+
+.main-content h1 {
+  font-size: 58px;
+  font-size: 800;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+  font-family: MontserratBold;
+}
+.main-content h4 {
+  font-size: 20px;
+  font-size: 500;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  font-family: MontserratRegular;
+  width: 540px;
+  margin: 40px auto;
+}
+
+.p-300 {
+  padding: 100px 350px;
+}
+
+.m-80-p-40 {
+  margin: 80px auto;
+  padding: 40px 0;
+}
+
+
+.cta button {
+  border-radius: 35px;
+  padding: 10px 36px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-orange {
+  background-color: #ffa62b;
+  border: 0;
+}
+.btn-outline {
+  background: none;
+  border: 1px solid #fff;
+  margin-right: 10px;
+}
+
+.cards h3 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+
+.cards h6 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  text-transform: uppercase;
+}
+
+.cards {
+  background-color: white;
+  box-shadow: 1px 5px 10px rgba(35, 35, 35, 0.1);
+  /* margin-bottom: -100px; */
+  
+}
+
+.feature .card {
+  padding: 35px;
+  margin: 40px 0;
+  width: 240px;
+}
+
+.feature button {
+  border: 1px solid #00a0c1;
+  color: #00a0c1;
+  border-radius: 35px;
+  padding: 10px 30px;
+  width: 120px;
+}
+.feature-card img {
+  width: 48px;
+  height: 48px;
+}
+
+.feature-card h5 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.feature-card p {
+  font-weight: 700;
+  color: #737373;
+}
+
+.bgColor-dark {
+  background-color: #252b42;
+}
+
+
+
+.video .card {
+  background: none;
+}
+
+
+
+.video {
+  padding-bottom: 100px;
+}
+
+.p-50 {
+  padding: 0 50px;
+}
+
+.about-text,
+.client-text,
+.teams-text {
+  padding: 80px 175px;
+  width: 860px;
+  margin: 0;
+}
+
+
+
+.about-text p,
+.client-text p,
+.teams-text p,
+.video p {
+  line-height: 20px;
+  color: #737373;
+}
+
+.video h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.video h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.clients {
+  background-color: #16697a;
+  padding-bottom: 110px;
+}
+
+.client-card h3 {
+  color: #252b42;
+  font-family: MontserratBold;
+  font-weight: 700;
+  font-size: 24px;
+}
+.client-card {
+  padding: 30px 60px;
+}
+.client-card h6 {
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+}
+.client-card p,
+.team-card p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.teams {
+  padding: 0 200px;
+  padding-bottom: 100px;
+}
+
+.team-card {
+  padding: 30px 40px;
+  width: 100%;
+}
+
+.team-card h6 {
+  color: #ffa62b;
+  font-weight: 600;
+  font-size: 14px;
+}
+.team-card h5 {
+  font-family: MontserratBold;
+  color: #252b42;
+  font-weight: 700;
+  font-size: 16px;
+}
+.feature{
+  margin-top: 100px;
+}
+.map {
+  background-color: #252b42;
+  color: white;
+  padding: 100px 200px;
+  padding-bottom: 400px;
+}
+
+.mx-200{
+  margin: 0 200px;
+  margin-top: -320px;
+}
+
+.map p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.map img {
+  padding: 10px;
+}
+
+.map-text {
+  padding-right: 100px;
+}
+
+.quote-form{
+  padding: 40px 50px;
+}
+
+
+.form-info label{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-inputs{
+  height: 50px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+}
+
+.submit-button{
+  background-color: #ffa62b;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.office-img{
+  width: 364px;
+  object-fit: cover;
+}
+.social-media{
+  background-color: white;
+  padding: 50px 250px;
+}
+
+.social-media-wrapper h3{
+  font-family: MontserratBold;
+  font-weight: 700;
+  font-size: 24px;
+}
+.social-media-wrapper ul{
+  font-weight: 600;
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-wrapper a{
+  text-decoration: none;
+  color: #737373;
+}
+
+.signature{
+  padding: 20px 0;
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+@media (orientation: portrait) {
+  body{
+    background-color: #edeaeb;
+    overflow-x: hidden;
+  }
+
+  .p-300 {
+    padding: 10px;
+  }
+  .main-content h4 {
+    font-size: 20px;
+    font-size: 500;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    font-family: MontserratRegular;
+    padding: 0;
+  }
+  .cards {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .nabvar-header {
+    background-color: white;
+    margin: 0;
+  }
+  .logo {
+    color: #252b42;
+  }
+  .nav-list {
+    color: #737373;
+    font-size: 30px;
+  }
+  .menu-btn {
+    filter: contrast(0%);
+  }
+  .background {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 1000%;
+  }
+
+  .map {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .map-text{
+    padding: 0 100px;
+  }
+
+
+  .feature{
+    margin-top: 400px;
+  }
+  .map img{
+    padding: 80px;
+    width: 100%;
+  }
+  
+  .mx-200{
+    margin: 0;
+  }
+  
+  .office-img{
+    width: 100%;
+  }
+
+  .contact{
+    padding: 0;
+    margin: 0;
+  }
+
+ .cards{
+  background: none;
+  padding: 0 100px;
+ }
+
+  .p-50 {
+    padding: 0;
+  }
+
+  .client-text{
+    padding: 100px 300px;
+  }
+
+  .teams{
+    padding: 80px;
+  }
+
+  .teams-text{
+    padding: 30px 0px;
+    width: 100%;
+  }
+
+  .cards-client-wrapper{
+    padding: 0 50px;
+  }
+
+  .social-media{
+    padding:100px;
+  }
+
+  .about-us{
+    background-color: white;
+  }
+
+  .about-text{
+    padding: 40px 200px;
+  }
+
+  .video-image{
+    width: 500px;
+    height: 450;
+    object-fit: cover;
+  }
+
+  .info{
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+body{
+  overflow-x: hidden;
+}
